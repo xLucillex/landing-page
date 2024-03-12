@@ -3,50 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>TOP Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul>
-            <li><a href="#">header link 1</a></li>
-            <li><a href="#">header link 2</a></li>
-            <li><a href="#">header link 3</a></li>
-        </ul>
-    </div>
-    <div class="body">
+    <div class="container">
+        <div class="nav">
+            <div class="logo">Lucia's website</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
         <div class="hero-text">
-            <h1>This website is awesome</h1>
-            <p>This website has a subtext that goes here under the main title.</p>
-            <button>Sign up</button>
-            <div class="image"></div>
-        </div>
-
-        <div class="content">
-            <h1>Some random information</h1>
-            <div class="box"></div>
-            <p></p>
-            <div class="box"></div>
-            <p></p>
-            <div class="box"></div>
-            <p></p>
-            <div class="box"></div>
-            <p></p>
-        </div>
-
-        <div class="quote">
-
-        </div>
-
-        <div class="call-to-action">
-            <div class="text">
-
+            <div class="left-side">
+                <h1>I am awesome!</h1>
+                <p>This is my lading page project for The Odin Project. In this section you can hopefully see an image to the right hand side of this text.</p>
+                <button>Click me, I do something!*</button>
+                <div class="disclaimer"><p>*Disclaimer: the button above doesn't do anything</p></div>
             </div>
-            <button>Sign up</button>
-        </div>
-
-        <div class="footer">Copyright The Odin Project 2024</div>
+            <div class="right-side">
+                <div class="hero-text-img"><img src="/images/me.jpeg" alt="Is this me?"></div>
+            </div>  
+        </div>      
     </div>
+
+    <div class="information">
+            <h1>These are all the countries I lived in. What do you mean nobody asked?</h1>
+            <div class="cards">
+                <div class=""><img src="/images/bsas.jpg" alt="Argentina"></div>
+                <p>Argentina: I was born here and I lived here until I was 28.</p>
+                <div class="spa"><img src="/images/barcelona.jpg" alt="Spain"></div>
+                <p>Spain: I moved in 2016 and lived there for two years</p>
+                <div class="nl"><img src="/images/netherlands.jpg" alt="Netherlands"></div>
+                <p>The Netherlands: On to the next adventure! Moved here in 2018 until I left in 2020</p>
+                <div class="scotland"><img src="/images/scotland.jpg" alt="Scotland"></div>
+                <p>Scotland: Mid pandemic I decided it was time for a change so I moved to the land of William Wallace!</p>
+            </div>
+    </div>
+    
+
+    <div class="quote">
+        <p>"I'm not superstitious, but I'm a little stitious</p>
+        <div class="author"><p>- Michael Scott</p></div>
+        <p>"I'm not great at the advice, can I interest you in a sarcastic comment?</p>
+        <div class="author"><p>- Ms. Chanandler Bong</p></div>
+    </div>
+
+    <div class="call-to-action">
+        <div class="text">
+            <h1>If you want to help fund my next trip, click that button!</h1>
+            <p>Just kidding, that button doesn't do anything either</p>
+        </div>
+        <div class="button2">
+            <button>Click click!</button>
+        </div>
+    </div>
+
+    <div class="footer">Copyright The Odin Project 2024</div>
 </body>
 </html>
