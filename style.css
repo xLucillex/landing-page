@@ -83,12 +83,35 @@ a {
 
 .cards {
     display: flex;
+    gap: 50px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.cards img {
+    border-style: solid;
+    border-color: #2f1f37;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.cards .text {
+    font-size: 14px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
 }
 
 .information h1 {
     font-size: 36px;
     font-weight: bolder;
     color: #2f1f37;
+    margin-top: 70px;
 }
 
 .quote {
